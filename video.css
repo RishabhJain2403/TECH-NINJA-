@@ -1,0 +1,19 @@
+body {
+            background-color: #0b131b; /* Set the background color to blue */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Hide any overflow content */
+        }
+       
+        video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
